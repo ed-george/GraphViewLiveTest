@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<RadioGroup
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<RadioButton android:text="Line Graphs" android:id="@+id/radio_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+		<RadioButton android:text="Bar Graphs" android:id="@+id/radio_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</RadioGroup>
+	<RadioGroup
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<RadioButton android:text="Realtime - Quick" android:id="@+id/radio_quick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+		<RadioButton android:text="Realtime - Slow" android:id="@+id/radio_slow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</RadioGroup>
+   
+	    
+	<CheckBox 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/check_box"
+	    android:text="Fixed Axis?"
+	    android:checked="true"
+	    />
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn_simple"
+		android:text="Simple Graphs" />
+	
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn_realtime"
+		android:text="Realtime Graph" />
+	
+		<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn_adv"
+		android:text="Advance Graph" />
+	
+
+</LinearLayout>
